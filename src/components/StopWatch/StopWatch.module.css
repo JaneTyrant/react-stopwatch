@@ -3,6 +3,7 @@
 
   --primary-color: #ffffff;
   --box-shadow-color: #000000;
+  --disabled-color: #808080;
 }
 
 .container {
@@ -64,4 +65,11 @@
 
 .button:active {
   background-color: #b262c2;
+}
+
+.button:disabled {
+  border-color: var(--disabled-color);
+
+  background-color: #530763;
+  color: var(--disabled-color);
 }
